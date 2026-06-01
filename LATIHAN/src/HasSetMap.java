@@ -8,7 +8,7 @@ public class HasSetMap {
         Buku buku1 = new Buku("B001", "Pemrograman Java");
         Buku buku2 = new Buku("B002", "Struktur Data");
         Buku buku3 = new Buku("B003", "Basis Data");
-
+        
         katalogBuku.put(buku1.getIsbn(), buku1);
         katalogBuku.put(buku2.getIsbn(), buku2);
         katalogBuku.put(buku3.getIsbn(), buku3);
