@@ -6,6 +6,7 @@ public class App {
         gudang.tambahBarangBaru("B01", "Keyboard Mechanical", "Elektronik", 15);
         gudang.tambahBarangBaru("B02", "Kursi ", "Furnitur", 5);
         gudang.tambahBarangBaru("B03", "Monitor 30 Inch", "Elektronik", 10);
+        gudang.tambahBarangBaru("B03", "Laptop Macbook", "Elektronik", 10);
         //Melakukan satu kali penambahan Stok 
         gudang.tambahStok("B01", 5);
         //Melakukan satu kali pengurangan Stok
